@@ -1,0 +1,63 @@
+body
+{
+background: linear-gradient(to right, #ff9a9e, #fad0c4);
+font-family: Arial;
+text-align: center;
+overflow: hidden;
+}
+
+.container
+{
+background: white;
+padding: 30px;
+margin: 100px auto;
+width: 350px;
+border-radius: 20px;
+box-shadow: 0 0 20px gray;
+}
+
+h1
+{
+color: #ff4081;
+}
+
+button
+{
+background: #ff4081;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 20px;
+font-size: 16px;
+}
+
+button:hover
+{
+background: #e91e63;
+}
+
+.balloons
+{
+font-size: 40px;
+animation: float 3s infinite;
+}
+
+@keyframes float
+{
+0% {transform: translateY(0);}
+50% {transform: translateY(-20px);}
+100% {transform: translateY(0);}
+}
+
+.cake
+{
+font-size: 60px;
+animation: bounce 1s infinite;
+}
+
+@keyframes bounce
+{
+0% {transform: scale(1);}
+50% {transform: scale(1.2);}
+100% {transform: scale(1);}
+}
